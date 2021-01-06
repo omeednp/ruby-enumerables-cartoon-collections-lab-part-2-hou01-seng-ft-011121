@@ -18,6 +18,8 @@ def summon_captain_planet(planeteer_calls)
     capital_calls.push("#{element.capitalize}!")
   end
   
+  return capital_calls
+  
 end
 
 def long_planeteer_calls(planeteer_calls)
